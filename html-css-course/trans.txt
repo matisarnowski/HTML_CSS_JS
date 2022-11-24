@@ -1,0 +1,1 @@
+trans en:pl --no-ansi "" >> translate.txt && tail translate.txt
