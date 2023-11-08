@@ -1,7 +1,7 @@
 let start = 10;
 let secondStart = start;
 
-function getStartParameter(start, secondStart){
+function getStartParameter(start){
     console.log(start);
     if (start < 1) {
         return start;
