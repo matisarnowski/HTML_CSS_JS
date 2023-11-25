@@ -6,7 +6,7 @@ tableWithMonths = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec",
 let dayOfMonth = dateToPolishFormat.getDate();
 let yearNow = dateToPolishFormat.getFullYear();
 let monthOfYear = dateToPolishFormat.getMonth();
-todayToPolish = "Dziś jest: " + dayOfMonth + ", miesiąc: " + tableWithMonths[monthOfYear] + " roku: " + yearNow;
+let todayToPolish = "Dziś jest: " + dayOfMonth + ", miesiąc: " + tableWithMonths[monthOfYear] + " roku: " + yearNow;
 document.getElementById("date").innerHTML = todayToPolish;
 function myTimer() {
     let dateNowInLoop = new Date();
