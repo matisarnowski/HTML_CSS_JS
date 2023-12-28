@@ -21,6 +21,6 @@ function getData(item) {
     console.log(elRow);
     console.log(elName);
     console.log(elRandom);
-    message.innerHTML = `${elName} znajduje się w wierszu ${elRow} i ma losową liczbę ${elRandom}.`;
+    document.getElementById("message").innerHTML = `${elName} znajduje się w wierszu ${elRow} i ma losową liczbę ${elRandom}.`;
 }
 build();
